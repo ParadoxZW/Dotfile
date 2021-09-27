@@ -155,7 +155,7 @@ inoremap <expr> " Pair() ? '""<left>' : '"'
 inoremap <expr> ( Pair() ? '()<left>' : '('
 inoremap <expr> [ Pair() ? '[]<left>' : '['
 " inoremap <expr> { Pair() ? '{}<left>' : '{'
-inoremap <expr> { Pair() ? '{}<left><CR><ESC>O<TAB>' : '{'
+inoremap {<CR> {}<left><CR><CR><Up><TAB>
 "*********Auto Parenthesis*********************
 
 
