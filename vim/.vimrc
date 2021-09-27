@@ -152,9 +152,15 @@ endfunc
 
 inoremap <expr> " Pair() ? '""<left>' : '"'
 " inoremap <expr> ' Pair() ? "''<left>" : "'"
+
+inoremap () ()<left>
 inoremap <expr> ( Pair() ? '()<left>' : '('
+
+inoremap [] []<left>
 inoremap <expr> [ Pair() ? '[]<left>' : '['
+
 " inoremap <expr> { Pair() ? '{}<left>' : '{'
+inoremap {} {}<left>
 inoremap {<CR> {}<left><CR><CR><Up><TAB>
 "*********Auto Parenthesis*********************
 
