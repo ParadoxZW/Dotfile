@@ -9,5 +9,5 @@ It satisfied my daily use.
 
 ## TODO
 
-- [] write bash files to automatically collect and dloy
-- [] symbol link
+- [ ] write bash files to automatically collect and dloy
+- [ ] symbol link
