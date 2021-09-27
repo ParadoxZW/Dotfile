@@ -1,0 +1,7 @@
+alias py=python
+export PATH=$PATH:/data/$USER/usr/node/bin
+export PATH=/data/$USER/usr/vim/bin:$PATH
+export PATH=$PATH:/data/$USER/usr/bin
+export LD_LIBRARY_PATH=/data/$USER/usr/lib
+export LD_LIBRARY_PATH=/home/$USER/miniconda3/envs/pyt0rch/lib/python3.6/config-3.6m-x86_64-linux-gnu:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/home/$USER/miniconda3/envs/py2/lib/python2.7/config/:$LD_LIBRARY_PATH
